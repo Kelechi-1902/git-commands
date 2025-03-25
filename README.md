@@ -1,7 +1,7 @@
 # Git coomands
 Git is an open source distributed version control styles
 # The stages of git
-!{}(https://miro.medium.com/v2/resize:fit:500/1*9hNsHV22lsi03i9Ah92KmQ.png)
+![](https://miro.medium.com/v2/resize:fit:500/1*9hNsHV22lsi03i9Ah92KmQ.png)
 - The workspace: this is where unstagged files are located
 - The staging Area: this is wherefiles go to after they have been stagged
 - The commit/local Rep: this is where the comitted files are saved as a version 
