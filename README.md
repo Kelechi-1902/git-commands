@@ -25,3 +25,47 @@ to check a status of our file, you use the command which is 'git status', this w
 ```sh
 git status
 ```  
+## Git add
+To add changes in the working directory to the staged files and prepaing them to be committed and this marks them to be icluded in the next commit
+```sh
+git add
+```
+## Git configuration
+This process is only done for those who current installed their git app and this command allows you to configure setting for git repositories which includes the user information like 'Name and Email'
+```sh
+git config --global user.name"your name"
+git config --global user.email"your email"
+```
+## Saving changes in Git
+This comes after the you have added changes in the working directory in the staged files into the repository's history, so in other to save the changes in ur git you use "git commit"and with your commit message.
+```sh
+git commit -m "Your commit message"
+```
+## Staging All the Flies
+This is where you stage all the changes in your files (both new, modified and deleted) in the current directory for the next commit. To do that we use
+```sh
+git add . 
+```
+## Displaying Committed hsitory
+To display committed history of a git repository that shows the the author, author's email, date and time of the commit and the files you committed nd also the files you modified. To do that we use
+```sh
+git log
+```
+## Changing Master to Main
+This is only for those who's current branch are like this "(master)" and they want to rename it to (main) branch.to do this we use 
+```sh
+git branch -M main
+```
+## How to Fetch and Push your local Repositories
+After committing a local repositories the next step is to fetch nd push it to your github account but before that you will have to go to your github account to copy the URLs of ur github account. Then to fetch and push your remote repositories to a local repositories, we use this code
+```sh
+git remote -v
+```
+To link your remote repositories to local repositories, we use this code
+```sh
+git remote add origin "your github URLs"
+```
+Then to fetch and push your remote repositories to local respositories, we use this code
+```sh
+git remote -v origin "your github URLs
+```
